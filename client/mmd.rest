@@ -1,0 +1,19 @@
+POST  http://localhost:3000/api/user HTTP/1.1
+content-type: application/json
+
+{
+     "name":"mohamadreza",
+      "email":"mm@mmm.com",
+      "password":"12345Aaaaaaa",
+      "isAdmin":true
+}
+###
+
+POST  http://localhost:6000/api/genres HTTP/1.1
+content-type: application/json
+
+{
+     "name":"genre1"
+      
+}
+
